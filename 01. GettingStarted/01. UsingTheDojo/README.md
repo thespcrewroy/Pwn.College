@@ -1,4 +1,4 @@
-# Using the Dojo
+# Using The Dojo
 You can interact with challenges in three ways:
 
 * [**Dojo Workspace**](https://pwn.college/workspace/code): a version of Visual Studio Code running inside the dojo.
