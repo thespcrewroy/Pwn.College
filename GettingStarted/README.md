@@ -1,3 +1,5 @@
+# Getting Started
+
 Welcome to the Dojo! <br>
 This dojo is designed to give you a crash course in the use of this platform, and set you up to for future success:
 * The core of your experience will be the capture of flags
