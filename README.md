@@ -1,6 +1,6 @@
 # Pwn.College
 
-## Getting Started
+## Getting Started: Learning the Basics
 The material on pwn.college is split into a number of "dojos", with each dojo typically covering a high-level topic. The material is designed to be tackled in order. You can, of course, jump around, but keep in mind that each dojo expects you to know everything taught by the previous ones. The first few dojos are designed to help you *Get Started* with the platform. Start here before venturing onwards! After completing the dojos above, dive into the Core Material below!
 
 * [***Using the Dojo***](https://github.com/thespcrewroy/Pwn.College/tree/main/01.%20GettingStarted/01.%20UsingTheDojo)
