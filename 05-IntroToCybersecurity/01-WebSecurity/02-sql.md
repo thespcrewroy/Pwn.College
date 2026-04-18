@@ -6,7 +6,7 @@
 - **Example**: `CREATE TABLE users (username, password)`
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/05.%20IntroToCybersecurity/01.%20WebSecurity/assets/create-table.png" alt="Demo" width="500" />
+  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/create-table.png" alt="Demo" width="500" />
 </p>
 
 ## Insert Into
@@ -18,7 +18,7 @@
   - `INSERT INTO users VALUES ("kanak", "hunter2")`
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/05.%20IntroToCybersecurity/01.%20WebSecurity/assets/insert-into.png" alt="Demo" width="500" />
+  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/insert-into.png" alt="Demo" width="500" />
 </p>
 
 ## Select
@@ -33,7 +33,7 @@
   - `SELECT * FROM users WHERE username = "admin" and password = "admin"`
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/05.%20IntroToCybersecurity/01.%20WebSecurity/assets/select6.png" alt="Demo" width="500" />
+  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/select6.png" alt="Demo" width="500" />
 </p>
 
 ## Delete
@@ -42,7 +42,7 @@
 - **Example**: `DELETE FROM users WHERE username = "kanak"`
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/05.%20IntroToCybersecurity/01.%20WebSecurity/assets/delete.png" alt="Demo" width="500" />
+  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/delete.png" alt="Demo" width="500" />
 </p>
 
 ## Update
@@ -51,7 +51,7 @@
 - **Example**: `UPDATE users SET password = "password456" WHERE username = "connor"`
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/05.%20IntroToCybersecurity/01.%20WebSecurity/assets/update.png" alt="Demo" width="500" />
+  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/update.png" alt="Demo" width="500" />
 </p>
 
 ## Union
@@ -60,7 +60,7 @@
 - **Example**: `SELECT username FROM users UNION SELECT password FROM users`
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/05.%20IntroToCybersecurity/01.%20WebSecurity/assets/union.png" alt="Demo" width="500" />
+  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/union.png" alt="Demo" width="500" />
 </p>
 
 ## The Schema Table
@@ -68,7 +68,7 @@
 - **Format**: SELECT `<tbl_name>` FROM sqlite_master
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/05.%20IntroToCybersecurity/01.%20WebSecurity/assets/schema-table.png" alt="Demo" width="500" />
+  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/schema-table.png" alt="Demo" width="500" />
 </p>
 
 ## Drop Table
@@ -77,7 +77,7 @@
 - **Example**: `DROP TABLE users`
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/05.%20IntroToCybersecurity/01.%20WebSecurity/assets/drop-table.png" alt="Demo" width="500" />
+  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/drop-table.png" alt="Demo" width="500" />
 </p>
 
 <p align="right"><a href="#top">🔼 Back to top</a></p

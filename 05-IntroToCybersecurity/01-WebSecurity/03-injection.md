@@ -34,7 +34,7 @@
 `execve("/usr/bin/date", ["date"], {"TZ": "UTC"})`<br>
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/05.%20IntroToCybersecurity/01.%20WebSecurity/assets/tz-utc.png" alt="Demo" width="500" />
+  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/tz-utc.png" alt="Demo" width="500" />
 </p>
 
 ### Example: MST
@@ -44,7 +44,7 @@
 `execve("/usr/bin/date", ["date"], {"TZ": "MST"})`<br>
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/05.%20IntroToCybersecurity/01.%20WebSecurity/assets/tz-mst.png" alt="Demo" width="500" />
+  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/tz-mst.png" alt="Demo" width="500" />
 </p>
 
 
@@ -63,7 +63,7 @@
 `execve("/usr/bin/date", ["date"], {"TZ": "root"})`
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/05.%20IntroToCybersecurity/01.%20WebSecurity/assets/command-injection2.png" alt="Demo" width="500" />
+  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/command-injection2.png" alt="Demo" width="500" />
 </p>
 
 - Substitute the output of the `whoami` command in for the `TZ` env variable
@@ -79,7 +79,7 @@
 `execve("/usr/bin/whoami", ["whoami"], {...})`<br>
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/05.%20IntroToCybersecurity/01.%20WebSecurity/assets/command-injection3.png" alt="Demo" width="500" />
+  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/command-injection3.png" alt="Demo" width="500" />
 </p>
 
 - We now understand that we have a very aggressive level of control over the launching shell if we have user input
@@ -104,8 +104,8 @@
 `html_response("<p>Hello, <script>alert(1)</script>!</p>")`
 
 <p align="left">
-  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/05.%20IntroToCybersecurity/01.%20WebSecurity/assets/html.png" alt="Demo" width="500" />
-  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/05.%20IntroToCybersecurity/01.%20WebSecurity/assets/html-injection.png" alt="Demo" width="500" />
+  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/html.png" alt="Demo" width="500" />
+  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/html-injection.png" alt="Demo" width="500" />
 </p>
 
 
@@ -122,7 +122,7 @@
 ### Example
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/05.%20IntroToCybersecurity/01.%20WebSecurity/assets/sql-injection.png" alt="Demo" width="500" />
+  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/sql-injection.png" alt="Demo" width="500" />
 </p>
 
 
@@ -146,8 +146,8 @@
 ### Example
 
 <p align="left">
-  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/05.%20IntroToCybersecurity/01.%20WebSecurity/assets/stack1.png" alt="Demo" width="500" />
-  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/05.%20IntroToCybersecurity/01.%20WebSecurity/assets/stack2.png" alt="Demo" width="500" />
+  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/stack1.png" alt="Demo" width="500" />
+  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/stack2.png" alt="Demo" width="500" />
 </p>
 
 
@@ -162,8 +162,8 @@
 ### Example
 
 <p align="left">
-  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/05.%20IntroToCybersecurity/01.%20WebSecurity/assets/stack3.png" alt="Demo" width="500" />
-  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/05.%20IntroToCybersecurity/01.%20WebSecurity/assets/stack4.png" alt="Demo" width="500" />
+  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/stack3.png" alt="Demo" width="500" />
+  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/stack4.png" alt="Demo" width="500" />
 </p>
 
 
@@ -174,8 +174,8 @@
 ### Buffer DDoS Attack
 
 <p align="left">
-  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/05.%20IntroToCybersecurity/01.%20WebSecurity/assets/stack-ddos1.png" alt="Demo" width="500" />
-  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/05.%20IntroToCybersecurity/01.%20WebSecurity/assets/stack-ddos2.png" alt="Demo" width="500" />
+  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/stack-ddos1.png" alt="Demo" width="500" />
+  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/stack-ddos2.png" alt="Demo" width="500" />
 </p>
 
 
@@ -191,8 +191,8 @@
 ### Buffer Overflow Attack
 
 <p align="left">
-  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/05.%20IntroToCybersecurity/01.%20WebSecurity/assets/stack-overflow1.png" alt="Demo" width="500" />
-  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/05.%20IntroToCybersecurity/01.%20WebSecurity/assets/stack-overflow2.png" alt="Demo" width="500" />
+  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/stack-overflow1.png" alt="Demo" width="500" />
+  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/stack-overflow2.png" alt="Demo" width="500" />
 </p>
 
 

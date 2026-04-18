@@ -7,7 +7,7 @@
 * Edge-cases are hard to explore from a defensive standpoint, because these edge cases are where security breaks down...
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/01.%20StartHere/01.%20UsingTheDojo/assets/traditional-lessons.png" alt="Demo" width="500" />
+  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/traditional-lessons.png" alt="Demo" width="500" />
 </p>
 
 ## The Adversarial Mindset
@@ -16,7 +16,7 @@
 * By carrying out practical attacks, it allows students gain familiarity with the conceptual edge cases!
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/01.%20StartHere/01.%20UsingTheDojo/assets/adversarial-mindset.png" alt="Demo" width="500" />
+  <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/adversarial-mindset.png" alt="Demo" width="500" />
 </p>
 
 ## The Active Learning Component
