@@ -113,7 +113,7 @@
 - This allows the threat actors of running javascript serverside, which is not supposed to happen
 - Sanitization Technique:
   - Make sure you only accept alphanumeric characters in input fields
-  - Encode characters into HTML character entities to remove them from pure HTML context (ex. write `>` as `&gt;`)
+  - Only accept HTML character entities to remove them from pure HTML context (ex. write `>` as `&gt;`)
 
 ## SQL Injection
 
