@@ -88,6 +88,8 @@
 - At the end of the statement, there is a space and a pound (`#`) symbol that follows
   - This pound (`#`) symbol comments out the rest of the command after `whoami`
   - Thus, instead of executing `whoami date`, we execute `whoami`
+- Remove `execve("/usr/bin/date", ["date"], {"TZ": "root"})` since we do not need to search for the `date` program anymore
+
 
 ## HTML Injection
 
