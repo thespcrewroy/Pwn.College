@@ -109,7 +109,7 @@
 
 
 - **`<script>`**: tag that allows you to manipulate the frontend by running arbitrary javascript within the HTML context
-- Rather than running this locally in the client console, a malicious actor can inject the javascript into an input field which gets stored in a database and sent to a server
+- A malicious actor can inject the javascript into an input field which gets stored in a database and sent to a server
 - This allows the threat actors of running javascript serverside, which is not supposed to happen
 - Sanitization Technique:
   - Make sure you only accept alphanumeric characters in input fields
