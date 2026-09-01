@@ -15,6 +15,3 @@
   - Access or modify database data
   - Interact with broader servers system
   - Influence other web clients that interact with the server
-
-
-<p align="right"><a href="#top">🔼 Back to top</a></p
