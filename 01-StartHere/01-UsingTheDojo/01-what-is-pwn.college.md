@@ -39,5 +39,3 @@
 * Operating Systems
 * Dynamic Memory
 * Computer Architecture and Organization
-
-<p align="right"><a href="#top">🔼 Back to top</a></p>
