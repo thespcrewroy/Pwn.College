@@ -52,7 +52,7 @@
 - We can also take a user response and inject that user-specified timezone into the website
 
 ## Command Injection
-- Issue: all we are doing is concatenating `TZ=<userInput>+date` and just pushing it off to the shell to execute
+- Issue: all we are doing is concatenating `TZ=<timezone>+date` and just pushing it off to the shell to execute
 - **Backtick Operator (`` ` ``)**: if you specify another system program as an environment variable in between two backticks, the shell executes that program and uses the output of that command as the new timezone
 
 ### Example: TZ='whoami' date
