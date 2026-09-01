@@ -82,15 +82,12 @@
   <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/command-injection3.png" alt="Demo" width="500" />
 </p>
 
-- We now understand that we have a very aggressive level of control over the launching shell if we have user input
 - We can start our user input with a semicolon (`;`)
-- The semicolon specifies that we are passing in the empty string into the `TZ` environment variable
-- After we end that shell statement, we move onto the next line in the shell to begin a new shell statement
-- In this newline, we run the `whoami` command
+  - Specifies that we are passing in the empty string into the `TZ` environment variable
+  - Thus, instead of executing `TZ=<timezone> whoami date`, we execute `whoami date`
 - At the end of the statement, there is a space and a pound (`#`) symbol that follows
-  - This pound (`#`) symbol comments out (ignores) the rest of the command, which in our case is `date`
+  - This pound (`#`) symbol comments out the rest of the command after `whoami`
   - Thus, instead of executing `whoami date`, we execute `whoami`
-- It doesn't have to be `whoami`; now any program can be run if placed between the semicolon and pound symbols
 
 ## HTML Injection
 
