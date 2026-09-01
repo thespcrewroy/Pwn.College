@@ -2,8 +2,11 @@
 
 ## Create Table
 
-- **Format**: CREATE TABLE `<table>` (`<columns>`)
-- **Example**: `CREATE TABLE users (username, password)`
+**Format**: CREATE TABLE `<table>` (`<columns>`)
+
+```sql
+CREATE TABLE users (username, password)
+```
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/create-table.png" alt="Demo" width="500" />
@@ -11,11 +14,13 @@
 
 ## Insert Into
 
-- **Format**: INSERT INTO `<table>` VALUES (`<values>`)
-- **Example**:
-  - `INSERT INTO users VALUES ("admin", "admin")`
-  - `INSERT INTO users VALUES ("connor", "password123")`
-  - `INSERT INTO users VALUES ("kanak", "hunter2")`
+**Format**: INSERT INTO `<table>` VALUES (`<values>`)
+
+```sql
+INSERT INTO users VALUES ("admin", "admin")
+INSERT INTO users VALUES ("connor", "password123")
+INSERT INTO users VALUES ("kanak", "hunter2")
+```
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/insert-into.png" alt="Demo" width="500" />
@@ -23,14 +28,16 @@
 
 ## Select
 
-- **Format**: SELECT `<column>` FROM `<table>` WHERE `<conditions>`
-- **Example**
-  - `SELECT username, password FROM users`
-  - `SELECT username FROM users`
-  - `SELECT * FROM users`
-  - `SELECT * FROM users WHERE username = "admin"`
-  - `SELECT * FROM users WHERE username = "admin" and password = "password"`
-  - `SELECT * FROM users WHERE username = "admin" and password = "admin"`
+**Format**: SELECT `<column>` FROM `<table>` WHERE `<conditions>`
+
+```sql
+SELECT username, password FROM users
+SELECT username FROM users
+SELECT * FROM users
+SELECT * FROM users WHERE username = "admin"
+SELECT * FROM users WHERE username = "admin" and password = "password"
+SELECT * FROM users WHERE username = "admin" and password = "admin"
+```
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/select6.png" alt="Demo" width="500" />
@@ -38,8 +45,11 @@
 
 ## Delete
 
-- **Format**: DELETE FROM `<table>` WHERE `<conditions>`
-- **Example**: `DELETE FROM users WHERE username = "kanak"`
+**Format**: DELETE FROM `<table>` WHERE `<conditions>`
+
+```sql
+DELETE FROM users WHERE username = "kanak"
+```
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/delete.png" alt="Demo" width="500" />
@@ -47,8 +57,11 @@
 
 ## Update
 
-- **Format**: UPDATE `<table>` SET `<assignments>` WHERE `<conditions>`
-- **Example**: `UPDATE users SET password = "password456" WHERE username = "connor"`
+**Format**: UPDATE `<table>` SET `<assignments>` WHERE `<conditions>`
+
+```sql
+UPDATE users SET password = "password456" WHERE username = "connor"
+```
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/update.png" alt="Demo" width="500" />
@@ -56,16 +69,19 @@
 
 ## Union
 
-- **Format**: `<select>` UNION `<select>`
-- **Example**: `SELECT username FROM users UNION SELECT password FROM users`
+**Format**: `<select>` UNION `<select>`
+
+```sql
+SELECT username FROM users UNION SELECT password FROM users
+```
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/union.png" alt="Demo" width="500" />
 </p>
 
-## The Schema Table
+## Retreive All Tables in SQLite Database Schema
 
-- **Format**: SELECT `<tbl_name>` FROM sqlite_master
+**Format**: SELECT `<tbl_name>` FROM sqlite_master
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/schema-table.png" alt="Demo" width="500" />
@@ -73,11 +89,12 @@
 
 ## Drop Table
 
-- **Format**: DROP TABLE `<table>`
-- **Example**: `DROP TABLE users`
+**Format**: DROP TABLE `<table>`
+
+```sql
+DROP TABLE users
+```
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/Pwn.College/blob/main/assets/drop-table.png" alt="Demo" width="500" />
 </p>
-
-<p align="right"><a href="#top">🔼 Back to top</a></p
