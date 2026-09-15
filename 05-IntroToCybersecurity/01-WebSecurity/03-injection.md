@@ -184,7 +184,7 @@
 - However, if we overflow the buffer, let's say by passing in `input="AAAAAAAAAAAAAAAABBBBBBBBCCCCCCCC"` and `length=16`, we leave the buffer context and start injecting into the broader stack context, which is more powerful than the buffer
 - Unlike the buffer, the stack contains metadata about where the control flow of your program is supposed to return to
 - Thus, we no longer return to to original specified `0x555555555042` return address, but now return to a different `0x4343434343434343`
-- **Denial of Service (DDoS)**: This new address was not allocated so when the program tries to access it, it goes into a segmentation fault and the program crashes
+- **Denial of Service (DDoS)**: this new address was not allocated, so the program goes into a segmentation fault and the program crashes
 
 
 ### Buffer Overflow Attack
